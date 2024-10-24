@@ -41,7 +41,7 @@ Select ONE Additional Feature to Add
         color: white;
       }
 
-      .heading {
+      h1 {
         color: #beb9b3 !important;
       }
 
@@ -103,12 +103,31 @@ Select ONE Additional Feature to Add
       .ins {font-size: 25px}
       
       
+      table {color: #beb9b3  }
+      
+  .ani {
+  animation-duration: 3s;
+  animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+     
     </style>
   </head>
-
   <body class="bio">
+     
     <div id="top">
-      <h1 class="heading">Keith-Allen Hinds</h1>
+      <h1 class="ani">Keith-Allen Hinds</h1>
 
       <div id="chanel">
         <a href="#me">About Me</a>
@@ -116,23 +135,23 @@ Select ONE Additional Feature to Add
         <a href="#dancing">Dancing</a>
         <a href="#photos">Action shots</a>
         <a href="#ins">Inspirations</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact" >Contact</a>
 
-        <a
+        <a 
           target="_blank"
           href="https://www.instagram.com/keith_hinds_43889/profilecard/?igsh=MWI1NXVzNTJkanV0Nw="
         >
-          <img
+          <img class="ani"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5xVDHzdsxRDqy0YdGHZwkcXkm4anfR1eJw&s"
             width="25"
           />
         </a>
 
-        <a
+        <a 
           target="_blank"
           href="https://youtube.com/@keithhinds1913?si=Icno7YENb0QFQpVW"
         >
-          <img
+          <img class="ani"
             src="https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj"
             width="25"
           />
@@ -143,7 +162,7 @@ Select ONE Additional Feature to Add
           href="https://www.tiktok.com/@keith_hinds4388?_t=8qjU68oPjZP&_r=1
 "
         >
-          <img
+          <img class="ani"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS45jF2oX5HYzhemcWzyNdDf9PuYxjj8cf6ww&s"
             width="25"
           />
@@ -156,13 +175,13 @@ Select ONE Additional Feature to Add
     <br />
     <br />
     <div id="picquo">
-      <img
+      <img class="ani"
         src="https://cdn.glitch.global/462f1d07-d53c-452f-aea9-fda3938ecf2a/IMG_20241007_154147.jpg?v=1728488336895"
         width="450"
       />
 
       <div id="move">
-        <h2 id="size">
+        <h2 id="size" class="ani">
           The creative process is not controlled
           <br />by a switch you can simply turn on or off; <br />
           it's with you all the time. -Alvin Ailey
